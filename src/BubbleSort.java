@@ -1,7 +1,7 @@
 public class BubbleSort {
     void Sort(int arr[]){
         int n = arr.length;
-        for(int i = 0; i<n-1; i++){//loop through the array to do ne number of operation
+        for(int i = 0; i<n-1; i++){//loop through the array to do the number of operation
             for(int j=0; j<n-i-1; j++){//loop through the array for the actual sorting
                 if(arr[j]>arr[j+1]){ //check if first element is bigger from the seccond element
                     //swap the element
